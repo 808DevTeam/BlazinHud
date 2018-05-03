@@ -7,28 +7,28 @@
 
 # BlazinHud Configuration File:
 #  Variables:
-#   - {line} to go to the next line
-#   - {max_players} to get the max players
-#   - {online_players} to get the online player count
+#   - {line} To Go To The Next Line
+#   - {max_players} To Get The Max Players
+#   - {online_players} To Get The Online Player Count
 #   - & for color coding
-#   - {x} to get the player's x position
-#   - {y} to get the player's y position
-#   - {z} to get the player's z position
-#   - {level} to get the player's level
-#   - {tps} to get the ticks per second
-#   - {motd} to get the message of the day
+#   - {x} to get the player's X position
+#   - {y} to get the player's Y position
+#   - {z} to get the player's Z position
+#   - {level} To Get The Player's Level
+#   - {tps} To Get The Ticks Per Second
+#   - {motd} To Get The Message Of The Day
 
 #  Default Config:
-#    hud-message: "&bBlazinHud &aby &6BlazeTheDev&r {line} &c{online_players}&f/&c{max_players}"
-#    multi-world: "off"
+#    hud-message: "&bBlazinHud &bby &bBlazeTheDev {line} &b{online_players}&b/&b{max_players}"
+#    multi-world: "true
 #    worlds:
 #     - "world"
 
 # The below config is the hud message that will be displayed above your hotbar
-hud-message: "&bBlazinHud &aby &6BlazeTheDev&r {line} &c{online_players}&f/&c{max_players}"
+hud-message: "&bBlazinHud &bby &bBlazeTheDev {line} &b{online_players}&b/&b{max_players}"
 
 # The below config turns on or off multi-world support (NOTE: the 2 options here are on and off)
-multi-world: "off"
+multi-world: "on"
 
 # The below config is the world names that are supported for the hud (NOTE: If multi-world config is off then this will be useless)
 worlds:
